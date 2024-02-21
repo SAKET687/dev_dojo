@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
@@ -30,7 +31,7 @@ const Footer = () => {
                         <a href="/">
                             <p>Open Source</p>
                         </a>
-                        <a href="/">
+                        <a href="/hackathon">
                             <p>Hackathons</p>
                         </a>
                         <a href="/">
