@@ -2,6 +2,9 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React from "react";
+import Diversion from "/DIVERSION_2K24.jpg";
+import HackThisFall from "/HACK_THIS_FALL.jpg";
+import Rebase from "/REBASE01.jpg";
 
 const Hackathon = () => {
   return (
@@ -9,11 +12,7 @@ const Hackathon = () => {
       <div className="item-container">
         {/* DIVERSION 2K24 */}
         <div className="item-box">
-          <img
-            src="./DIVERSION_2K24.jpg"
-            alt="Hackathon"
-            className="hackathon-image"
-          />
+          <img src={Diversion} alt="Hackathon" className="hackathon-image" />
           <h1>Dev Dojo X DIVERSION 2K24</h1>
           <p className="intro-text">
             📢 Attention everyone! The highly anticipated moment has arrived! 🎉
@@ -49,11 +48,7 @@ const Hackathon = () => {
         </div>{" "}
         {/* HACK THIS FALL */}
         <div className="item-box">
-          <img
-            src="./HACK_THIS_FALL.jpg"
-            alt="Hackathon"
-            className="hackathon-image"
-          />
+          <img src={HackThisFall} alt="Hackathon" className="hackathon-image" />
           <h1>Dev Dojo X HACK THIS FALL</h1>
           <p className="intro-text">
             🥳 Get ready for Hack This Fall's Hybrid Hacktoberfest! Apply now
@@ -89,11 +84,7 @@ const Hackathon = () => {
         </div>
         {/* REBASE 01 */}
         <div className="item-box">
-          <img
-            src="./REBASE01.jpg"
-            alt="Hackathon"
-            className="hackathon-image"
-          />
+          <img src={Rebase} alt="Hackathon" className="hackathon-image" />
           <h1>Dev Dojo X Rebase&lt;01&gt;</h1>
           <p className="intro-text">
             📢 Hey Hackers! The wait is over! Registrations for your favorite
