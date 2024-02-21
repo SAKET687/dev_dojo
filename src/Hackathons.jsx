@@ -2,86 +2,15 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Diversion from "/DIVERSION_2K24.jpg";
-import HackThisFall from "/HACK_THIS_FALL.jpg";
-import Rebase from "/REBASE01.jpg";
+import Diversion from "./assets/DIVERSION_2K24.jpg";
+import HackThisFall from "./assets/HACK_THIS_FALL.jpg";
+import Rebase from "./assets/REBASE01.jpg";
 
-const Hackathon = () => {
+const Hackathons = () => {
   return (
     <div className="hackathon-page">
       <div className="item-container">
-        {/* DIVERSION 2K24 */}
-        <div className="item-box">
-          <img src={Diversion} alt="Hackathon" className="hackathon-image" />
-          <h1>Dev Dojo X DIVERSION 2K24</h1>
-          <p className="intro-text">
-            📢 Attention everyone! The highly anticipated moment has arrived! 🎉
-            Get ready for Diversion 2k24: INDIA'S first AI-powered Hackathon! 🔥
-            Secure your spot now and register as fast as possible! 🚀
-          </p>
-          <p className="register-text">
-            Register Now :{" "}
-            <a
-              href=" https://diversion.tech/register"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://diversion.tech/register
-            </a>{" "}
-            ⚡
-          </p>
-          <p className="query-text">For more queries, visit:</p>
-          <p>
-            <a
-              href="https://www.diversion.tech/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              DIVERSION 2K24
-            </a>
-          </p>
-          <p>
-            <a href="/home" target="_blank" rel="noreferrer">
-              Dev Dojo
-            </a>
-          </p>
-        </div>{" "}
-        {/* HACK THIS FALL */}
-        <div className="item-box">
-          <img src={HackThisFall} alt="Hackathon" className="hackathon-image" />
-          <h1>Dev Dojo X HACK THIS FALL</h1>
-          <p className="intro-text">
-            🥳 Get ready for Hack This Fall's Hybrid Hacktoberfest! Apply now
-            for Season 4 and be part of the excitement. Don't miss this
-            opportunity to learn, explore, and contribute to Open Source! 🚀🌟
-          </p>
-          <p className="register-text">
-            Register Now :{" "}
-            <a
-              href="https://hackthisfall.tech/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://hackthisfall.tech/
-            </a>{" "}
-            ⚡
-          </p>
-          <p className="query-text">For more queries, visit:</p>
-          <p>
-            <a
-              href="https://hackthisfall.tech/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              HACK THIS FALL
-            </a>
-          </p>
-          <p>
-            <a href="/home" target="_blank" rel="noreferrer">
-              Dev Dojo
-            </a>
-          </p>
-        </div>
+        {" "}
         {/* REBASE 01 */}
         <div className="item-box">
           <img src={Rebase} alt="Hackathon" className="hackathon-image" />
@@ -118,6 +47,78 @@ const Hackathon = () => {
             </a>
           </p>
         </div>
+        {/* HACK THIS FALL */}
+        <div className="item-box">
+          <img src={HackThisFall} alt="Hackathon" className="hackathon-image" />
+          <h1>Dev Dojo X HACK THIS FALL</h1>
+          <p className="intro-text">
+            🥳 Get ready for Hack This Fall's Hybrid Hacktoberfest! Apply now
+            for Season 4 and be part of the excitement. Don't miss this
+            opportunity to learn, explore, and contribute to Open Source! 🚀🌟
+          </p>
+          <p className="register-text">
+            Register Now :{" "}
+            <a
+              href="https://hackthisfall.tech/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://hackthisfall.tech/
+            </a>{" "}
+            ⚡
+          </p>
+          <p className="query-text">For more queries, visit:</p>
+          <p>
+            <a
+              href="https://hackthisfall.tech/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              HACK THIS FALL
+            </a>
+          </p>
+          <p>
+            <a href="/home" target="_blank" rel="noreferrer">
+              Dev Dojo
+            </a>
+          </p>
+        </div>
+        {/* DIVERSION 2K24 */}
+        <div className="item-box">
+          <img src={Diversion} alt="Hackathon" className="hackathon-image" />
+          <h1>Dev Dojo X DIVERSION 2K24</h1>
+          <p className="intro-text">
+            📢 Attention everyone! The highly anticipated moment has arrived! 🎉
+            Get ready for Diversion 2k24: INDIA'S first AI-powered Hackathon! 🔥
+            Secure your spot now and register as fast as possible! 🚀
+          </p>
+          <p className="register-text">
+            Register Now :{" "}
+            <a
+              href=" https://diversion.tech/register"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://diversion.tech/register
+            </a>{" "}
+            ⚡
+          </p>
+          <p className="query-text">For more queries, visit:</p>
+          <p>
+            <a
+              href="https://www.diversion.tech/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              DIVERSION 2K24
+            </a>
+          </p>
+          <p>
+            <a href="/home" target="_blank" rel="noreferrer">
+              Dev Dojo
+            </a>
+          </p>
+        </div>{" "}
       </div>
 
       <style jsx>{`
@@ -190,4 +191,4 @@ const Hackathon = () => {
   );
 };
 
-export default Hackathon;
+export default Hackathons;

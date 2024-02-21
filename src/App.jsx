@@ -2,15 +2,16 @@
 import React from "react";
 import "./App.css";
 import Home from "./Home";
-import Hackathon from "./Hackathon";
+import Hackathons from "./Hackathons";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => (
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="*" element={<Home />} />
       <Route path="/home" element={<Home />} />
-      <Route path="/Hackathon" element={<Hackathon />} />
+      <Route path="/Hackathons" element={<Hackathons />} />
     </Routes>
   </BrowserRouter>
 );

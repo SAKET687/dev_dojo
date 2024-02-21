@@ -28,15 +28,15 @@ const Footer = () => {
           </div>
           <div className="sb__footer-links_div">
             <h3>Resources</h3>
-            <a href="/">
+            <NavLink to="/">
               <p>Open Source</p>
-            </a>
-            <NavLink to="/Hackathon">
+            </NavLink>
+            <NavLink to="/Hackathons">
               <p>Hackathons</p>
             </NavLink>
-            <a href="/">
+            <NavLink to="/">
               <p>Playlists</p>
-            </a>
+            </NavLink>
           </div>
           <div className="sb__footer-links_div">
             <h3>Contact</h3>
