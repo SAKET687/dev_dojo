@@ -31,7 +31,7 @@ const Footer = () => {
             <NavLink to="/">
               <p>Open Source</p>
             </NavLink>
-            <NavLink to="/Hackathons">
+            <NavLink to="/hackathons">
               <p>Hackathons</p>
             </NavLink>
             <NavLink to="/">
